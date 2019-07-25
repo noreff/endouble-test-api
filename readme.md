@@ -60,7 +60,8 @@ http://localhost:8000/api?sourceId=space&year=2013&limit=10
 
 **Example response**
 
-```{
+```
+{
     "meta": {
         "request": {
             "sourceId": "space",
