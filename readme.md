@@ -14,11 +14,27 @@ API that based on a predetermined sets of fixed requests returns the correct res
 
 Clone or download project from git
 
-`git clone https://github.com/noreff/`
+`git clone https://github.com/noreff/endouble-test-api.git`
 
 Change directory to project directory
 
 `cd endouble`
+
+**Now you have 2 options:**
+
+**Run app inside Docker container** **(Recomended)**
+
+`docker-compose up`
+
+Install dependencies
+
+`docker exec -it testapi_php composer install`
+
+Go to http://localhost:8081 in your browser.
+
+___
+
+**Install dependencies using composer and run php built in server**
 
 Install dependencies 
 
@@ -29,6 +45,8 @@ Launch the server
 `php -S localhost:8000 -t public`
 
 Go to http://localhost:8000 in your browser.
+
+
 
 # Usage
 
