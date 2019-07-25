@@ -78,7 +78,7 @@ New connectors can be added to `app/Connectors` and should be named like `source
 
 To get data from XKCD API for given year I first found a id of any comics having given year using recursive function, which is in a nutshell is a half-interval search. Than I grab another comicses just by checking neibourth up and down. I'm also using prepend and push to keep correct sort order of notes. That's also results in `O(log n)` performance.‎
 
-#Tests
+# Tests
 
 Test located inside `tests` directory. To run them use this command `vendor/bin/phpunit`
 
