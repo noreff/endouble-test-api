@@ -24,7 +24,7 @@ Change directory to project directory
 
 **Run app inside Docker container** **(Recomended)**
 
-`docker-compose up`
+`docker-compose up -d`
 
 Install dependencies
 
