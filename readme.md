@@ -18,7 +18,7 @@ Clone or download project from git
 
 Change directory to project directory
 
-`cd endouble`
+`cd endouble-test-api`
 
 **Now you have 2 options:**
 
