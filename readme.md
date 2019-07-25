@@ -50,13 +50,15 @@ Go to http://localhost:8000 in your browser.
 
 # Usage
 
-Endpoint url to get the data is http://localhost:8000/data
+Your port may be different depending of which way of running server you choose. It It should be 8081 for docker and 8000 for php server.
+
+Endpoint url to get the data is http://localhost:8081/data
 You need to specify request parameters in a get string. Year and limit parameters are optional, both requires positive Integer.
 
 
 **Example request**
 
-http://localhost:8000/api?sourceId=space&year=2013&limit=10
+http://localhost:8081/api?sourceId=space&year=2013&limit=10
 
 **Example response**
 
