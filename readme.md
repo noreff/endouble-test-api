@@ -1,4 +1,4 @@
-# Endouble Test API
+# Lumen Test API
 
 API that based on a predetermined sets of fixed requests returns the correct responses.
 
