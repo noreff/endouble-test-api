@@ -18,7 +18,7 @@ Clone or download project from git
 
 Change directory to project directory
 
-`cd endouble-test-api`
+`cd lumen-demo-api`
 
 **Now you have 2 options:**
 
