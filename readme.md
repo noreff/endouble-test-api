@@ -14,7 +14,7 @@ API that based on a predetermined sets of fixed requests returns the correct res
 
 Clone or download project from git
 
-`git clone https://github.com/noreff/endouble-test-api.git`
+`git clone https://github.com/noreff/lumen-demo-api.git`
 
 Change directory to project directory
 
